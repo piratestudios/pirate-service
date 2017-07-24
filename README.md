@@ -2,6 +2,14 @@
 
 `pirate-service` is Ruby Gem that provides a base class for service objects in Pirate Studio's Ruby projects.
 
+## Installation
+
+Add this line to your application's Gemfile:
+
+```
+gem 'pirate-service', git: 'git@github.com:piratestudios/pirate-service.git'
+```
+
 ## Usage
 
 ``` ruby
