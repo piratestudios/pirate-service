@@ -6,8 +6,8 @@
 
 Add this line to your application's Gemfile:
 
-```
-gem 'pirate-service', git: 'git@github.com:piratestudios/pirate-service.git'
+``` ruby
+gem "pirate-service", git: "git@github.com:piratestudios/pirate-service.git"
 ```
 
 ## Usage
