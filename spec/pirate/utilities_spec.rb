@@ -1,4 +1,4 @@
-require "rails_helper"
+require "spec_helper"
 
 describe Services::Base::Utilities do
   let(:klass) do
