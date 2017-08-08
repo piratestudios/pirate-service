@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Services::Base::Fetch do
+describe Pirate::Service::Fetch do
   subject(:fetch) do
-    Services::Base::Fetch.new(
+    Pirate::Service::Fetch.new(
       id: id
     )
   end

@@ -1,9 +1,9 @@
 require "spec_helper"
 
-describe Services::Base::Utilities do
+describe Pirate::Service::Utilities do
   let(:klass) do
     Class.new do
-      include Services::Base::Utilities
+      include Pirate::Service::Utilities
     end
   end
 
