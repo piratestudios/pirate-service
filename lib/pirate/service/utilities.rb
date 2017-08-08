@@ -17,7 +17,7 @@ module Pirate
       # @return [Truthy]
 
       def empty_or_nil?(value)
-        !!(value.nil? || value.try(:empty?))
+        !!(value.nil? || value&.empty?)
       end
     end
   end
